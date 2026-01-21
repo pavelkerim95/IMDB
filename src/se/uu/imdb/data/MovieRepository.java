@@ -16,8 +16,8 @@ public interface MovieRepository {
 
     /**
      * Saves all movies to storage
-      * @param movies
-     * @throws IOException
+      * @param movies movies to persist
+     * @throws IOException if writing fails
      */
     void saveAll(List<Movie> movies) throws IOException;
 }
